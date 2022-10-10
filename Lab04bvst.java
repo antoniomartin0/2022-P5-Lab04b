@@ -14,10 +14,14 @@ public class Lab04bvst extends Applet
     {
         // DRAW CUBE
 
-        g.drawLine(100,200,300,400);
-        g.drawRect(300,400,100,200);
-        g.drawOval(300,400,100,200);
-        g.drawArc(300,400,100,200,90,180);
+        g.drawLine(100,100,100);
+        g.drawLine(100,100,0);
+        g.drawLine(0,100,100);
+        g.drawLine(0,100,0);
+        g.drawLine(100,0,100);
+        g.drawLine(100,0,0);
+        g.drawLine(0,0,100);
+        g.drawLine(0,0,0);
 
 
         // DRAW SPHERE
