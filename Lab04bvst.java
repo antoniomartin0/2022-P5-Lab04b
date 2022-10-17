@@ -14,24 +14,23 @@ public class Lab04bvst extends Applet
     {
         // DRAW CUBE
 
-        g.drawLine(100,200,300,400);
-        g.drawRect(300,400,100,200);
-        g.drawOval(300,400,100,200);
-        g.drawArc(300,400,100,200,90,180);
-
+        g.drawLine(25,-25,75,-75);
+        g.drawLine(25,-25,25,-150);
+        g.drawLine(25,-25,150,-25);
+        g.drawLine(25,-150,75,-200);
+        g.drawLine(150,-25,200,-75);
+        g.drawLine(75,-75,200,-75);
+        g.drawLine(75,-75,75,-200);
+        g.drawLine(200,-75,200,-200);
+        g.drawLine(75,-200,200,-200);
 
         // DRAW SPHERE
 
-
-
         // DRAW INSCRIBED/CIRCUMSCRIBED TRIANGLE
-
-
 
         // DRAW APCS
 
-
-
+        g.drawRect(25,-475,25,-600);
         // DRAW PACMEN FLOWER
 
 
